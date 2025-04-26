@@ -1,0 +1,53 @@
+.sidebar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #0f0f0f;
+    padding: 10px;
+    overflow: hidden;
+    padding-left: 91px;
+  }
+  
+  .sidebar-scroll {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+  }
+  
+  .sidebar-scroll::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
+  .sidebar-button {
+    background-color: #212121;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .sidebar-button.active {
+    background-color: white;
+    color: black;
+  }
+  
+  .sidebar-link {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+  }
+  
+  .scroll-right {
+    background-color: #212121;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
