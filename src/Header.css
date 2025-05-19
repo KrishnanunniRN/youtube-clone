@@ -5,9 +5,9 @@
     background-color: #0f0f0f;
     padding: 10px 20px;
     color: white;
-    /* position: fixed; */
+    z-index: 99;
+
   }
-  
   .header-left {
     display: flex;
     align-items: center;
